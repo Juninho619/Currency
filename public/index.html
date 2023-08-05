@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currency Converter</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Currency Converter</h1>
+        <label for="from">From:</label>
+        <select id="from">
+            <!-- Add currency options here -->
+        </select>
+        <label for="amount">Amount:</label>
+        <input type="number" id="amount" value="1">
+        <label for="to">To:</label>
+        <select id="to">
+            <!-- Add currency options here -->
+        </select>
+        <button id="convert">Convert</button>
+        <p id="result"></p>
+    </div>
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
